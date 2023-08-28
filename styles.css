@@ -1,0 +1,39 @@
+Con el archivo HTML de recetas que creamos en la clase anterior:
+
+Cambiar el color de fondo de la pagina.
+
+Fuente de todo el texto es Tahoma.
+
+Todos los parrafos a tamaño de texto 16.
+
+Eliminar el subrayado a los vínculos (enlaces a la fuente de la receta).
+
+Cambiar el texto de los títulos de las recetas a Italic.
+
+Cambiar los elementos de la lista de ingredientes a Bold.
+
+Agregar un recuadro a las imagenes.
+
+
+
+body {
+	font-family: tahoma;
+}
+p {
+	font-size: 16px;
+}
+a:link {
+	text-decoration: none;
+}
+.titulo {
+	font-style: italic;
+}
+.elementos {
+	font-weight: bold;
+}
+img {
+	display: block;
+	border: 2px solid #ddd;
+	margin-left: auto;
+	margin-right: auto;
+}
