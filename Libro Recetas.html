@@ -23,16 +23,22 @@
 			<button class="w3-button w3-round-xlarge w3-border" id="2" onclick="mostrarReceta(id)">
 				Pizza Casera
 			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="3" onclick="mostrarReceta(id)">
+				Bizcochuelo de Vainilla
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="4" onclick="mostrarReceta(id)">
+				Noquis
+			</button>
 		</div>
 		<div id="Receta">
 
 		</div>	
 
-		<div class="w3-container">
+		<!-- <div class="w3-container">
 			<div class="w3-bar-item w3-xlarge">Contenido</div>
 		</div>
-		
-		<div class="w3-container">
+		 -->
+		<!-- <div class="w3-container">
 			<ol class="w3-ol">
 				<li class="w3-li">
 					<a class="w3-text-orange w3-margin-bottom" href="#bizcochuelo">Receta de Bizcochuelo</a>
@@ -42,8 +48,11 @@
 					<a class="w3-text-orange" href="#noquis">Receta de Noquis</a>
 				</li>
 			</ol>
-		</div>
-		
+		</div> -->
+
+		<!-- encerre mis recetas en un div con la clase:"w3-container w3-margin (johan)" -->
+		<div id="1" class="w3-container w3-margin">
+			<div class="w3-bar-item w3-xlarge">Mis Recetas</div>
 		<div class="w3-container">
 			<a id="bizcochuelo"></a>
 			<h3 class="w3-text-green w3-center titulo">Receta de Bizcochuelo</h3>
@@ -87,9 +96,16 @@
 				</li>
 				<li class="w3-li elementos">Deja reposar unos minutos y cuando haya tomado temperatura ambiente, desmolda el bizcochuelo de vainilla esponjoso</li>
 			</ol>
+			
+			<div class="w3-container w3-amber">
+				<p class="w3-large">Enlace a fuente</p>
+				<ul class="w3-ul w3">
+					<li class="w3-li"><i>fuente bizcochuelo <a href="https://www.recetasgratis.net/receta-de-bizcochuelo-de-vainilla-esponjoso-57057.html" class="w3-button"> Ir a fuente</a></i></li>
+				</ul>
+			</div> 
 		</div>
-		
-		
+		</div>
+		<div id="2" class="w3-container w3-margin">
 		<div class="w3-container">
 			<a id="noquis"></a>
 			<h3 class="w3-text-green w3-center titulo">Receta de Noquis</h3>
@@ -145,17 +161,18 @@
 				<li class="w3-li elementos">Para la cocción, llevar de a tandas a una olla con agua hirviendo con sal.
 					Van a ver que se caen al fondo. Cuando suben, los dejan 1 minuto y ya están listos!</li>
 			</ol>
+			<div class="w3-container w3-panel w3-border-top w3-border-black">
+				<p class="w3-large">Enlace a fuente</p>
+			</div>
+			<div class="w3-container w3-amber">
+				<ul class="w3-ul w3">
+					<li class="w3-li"><i>fuente ñoquis <a href="https://www.paulinacocina.net/receta-de-gnocchi-o-noquis/12020" class="w3-button"> Ir a fuente</a></i></li>
+				</ul>
+			</div> 
+		</div>
 		</div>
 		
-		<div class="w3-container w3-panel w3-border-top w3-border-black">
-			<p class="w3-large">Enlaces a fuentes</p>
-		</div>
-		<div class="w3-container w3-amber">
-			<ul class="w3-ul w3">
-				<li class="w3-li"><i>fuente bizcochuelo <a href="https://www.recetasgratis.net/receta-de-bizcochuelo-de-vainilla-esponjoso-57057.html" class="w3-button"> Ir a fuente</a></i></li>
-				<li class="w3-li"><i>fuente ñoquis <a href="https://www.paulinacocina.net/receta-de-gnocchi-o-noquis/12020" class="w3-button"> Ir a fuente</a></i></li>
-			</ul>
-		</div> 
+		
 		<!-- agregue mis recetas, y las encerre en div con la clase:"w3-container w3-margin (Katteryne)" -->
 			<div id="3" class="w3-container w3-margin">
 				<a name="receta1">

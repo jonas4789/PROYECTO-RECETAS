@@ -13,3 +13,16 @@ function ocultar(){
     }
 };
 
+function mostrarReceta(id){
+
+    // Obtiene todos los botones a traves de sus clases
+    const botones = document.getElementsByClassName("w3-button w3-round-xlarge w3-border");
+
+    // Cambia todos los fondos de los botones a blanco
+    for (let i = 0; i < botones.length; i++) {
+        botones[i].style.background = "white";
+    }
+
+    // Cambiar el color del botón seleccionado
+    document.getElementById(id).style.background = "orange";
+}
