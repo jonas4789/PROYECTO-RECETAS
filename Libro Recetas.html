@@ -16,21 +16,27 @@
 			<div class="w3-bar-item w3-center w3-padding-34 w3-xxlarge w3-center">Sitio Web de Recetas</div>
 		</div>
 		<!-- div de botones -->
-		<div class="w3-bar-block w3-border w3-center w3-padding">
+		<div class="w3-bar-block w3-border w3-center w3-padding" style="font-size:2vw;">
 			<button class="w3-button w3-round-xlarge w3-border" id="1" onclick="mostrarReceta(id)">
-				Bizcochuelo relleno con dulce de leche
-			</button>
-			<button class="w3-button w3-round-xlarge w3-border" id="2" onclick="mostrarReceta(id)">
-				Pizza Casera
-			</button>
-			<button class="w3-button w3-round-xlarge w3-border" id="3" onclick="mostrarReceta(id)">
 				Bizcochuelo de Vainilla
 			</button>
-			<button class="w3-button w3-round-xlarge w3-border" id="4" onclick="mostrarReceta(id)">
+			<button class="w3-button w3-round-xlarge w3-border" id="2" onclick="mostrarReceta(id)">
 				Noquis
 			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="3" onclick="mostrarReceta(id)">
+				Bizcochuelo de dulce de leche
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="4" onclick="mostrarReceta(id)">
+				Pizza Casera
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="5" onclick="mostrarReceta(id)">
+				Mbeju
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="6" onclick="mostrarReceta(id)">
+				Chipa Guazu
+			</button>
 		</div>
-		<div id="Receta">
+		<div id="mensajeInicial" class="w3-display-middle" style="font-size:2vw;">
 
 		</div>	
 
@@ -51,7 +57,7 @@
 		</div> -->
 
 		<!-- encerre mis recetas en un div con la clase:"w3-container w3-margin (johan)" -->
-		<div id="1" class="w3-container w3-margin">
+		<div id="R1" class="w3-container w3-margin">
 			<div class="w3-bar-item w3-xlarge">Mis Recetas</div>
 		<div class="w3-container">
 			<a id="bizcochuelo"></a>
@@ -105,7 +111,7 @@
 			</div> 
 		</div>
 		</div>
-		<div id="2" class="w3-container w3-margin">
+		<div id="R2" class="w3-container w3-margin">
 		<div class="w3-container">
 			<a id="noquis"></a>
 			<h3 class="w3-text-green w3-center titulo">Receta de Noquis</h3>
@@ -174,7 +180,7 @@
 		
 		
 		<!-- agregue mis recetas, y las encerre en div con la clase:"w3-container w3-margin (Katteryne)" -->
-			<div id="3" class="w3-container w3-margin">
+			<div id="R3" class="w3-container w3-margin">
 				<a name="receta1">
 					<div class="w3-container w3-deep-orange ">
 						<h2 class="w3-center" style="font-size:3.5vw;">Receta de Bizcochuelo relleno con dulce de leche</h2>
@@ -253,7 +259,7 @@
 					</div>
 					<br>
 			</div>
-			<div id="4" class="w3-container w3-margin">
+			<div id="R4" class="w3-container w3-margin">
 				<a name="receta2">
 					<div class="w3-container w3-deep-orange ">
 						<h2 class="w3-center" style="font-size:3.5vw;">Receta de Pizza casera</h2>
@@ -327,6 +333,188 @@
 					<div class="w3-row w3-container w3-margin w3-deep-orange" style="font-size:1.5vw;width:15%">	
 						<a href="https://www.recetasgratis.net/receta-de-pizza-casera-31391.html" class="w3-button">fuente:aqui</a>		
 					</div>
-			</div>			
+			</div>	
+			
+			<!-- agregue mis recetas (Renato)" -->
+			<div id="R5" class="w3-container w3-margin">
+			  <div class="w3-white w3-row"> 
+				  <div class="w3-col" style="width:80%">
+					  <div class="w3-row w3-center w3-light-gray " style="width:100%">
+						  <h2><a name="Receta 1"></a>Receta de Mbejú o mbeyú</h2>
+					  </div>
+					  <div class="w3-row">
+						  <div class="w3-col w3-center w3-padding" style="width:50%">
+							  <img class="w3-image w3-border w3-padding w3-opacity w3-hover-opacity-off" style="width:90%" src="https://camilamade.com/wp-content/uploads/2020/01/Mbeju-Authentic-Paraguayan-Yucca-Starch-Pancakes.jpeg"></img>
+						  </div>
+						  <div class="w3-col w3-padding" style="width:50%; font-size:0.9vw">
+							  <h2>Breve reseña</h2>
+							  <p>El mbejú o mbeyú es un plato sincrético que proviene de Paraguay, al sur de América. De clara influencia indígena guaraní por el uso 
+							  del almidón de mandioca o yuca, también se le agrega queso y mantequilla, productos añadidos por los jesuitas españoles.
+							  De hecho, la misma palabra 'mbejú' -o 'mbeyú'- es un vocablo guaraní que significa “torta aplastada”, y en esto consiste esta 
+							  preparación: es una especie de tortilla que reúne los ingredientes anteriores y que se cocinan asados en una sartén. El mbejú 
+							  suele disfrutarse como desayuno, acompañado de mate, café, té o leche, y también se acostumbra a servirse con motivo de la 
+							  festividad de San Juan. Aunque hay varios tipos de mbejú, el que te compartimos en ÑandeTembiu es el más sencillo y que podrás 
+							  preparar en tu casa sin dificultades.</p>
+							  <p>Acércate a tierras paraguayas preparando uno de sus platos más apreciados y populares, y descubre cómo hacer mbejú en pocos pasos.</p>
+						  </div>
+					  </div>
+					  <div class="w3-row">
+						  <div class="w3-col w3-padding " style="width:50%;font-size:0.9vw">
+							  <p>Características adicionales: Coste barato, Popular en Otras fiestas, Frito, Receta tradicional de Paraguay</p>
+							  <h3>Ingredientes</h3>
+								  <table class="w3-table-all" style="font-size:0.9vw">
+									  <thead>
+										  <tr class="w3-red">
+											  <th> Ingrediente </th>
+											  <th> Cantidad </th>
+										  </tr>
+									  </thead>
+									  <tr>
+										  <td>Almidón de mandioca o yuca amargo</td>
+										  <td>500 gr</td>
+									  </tr>
+									  <tr>
+										  <td>Mantequilla o margarina</td>
+										  <td>200 gr</td>
+									  </tr>
+									  <tr>
+										  <td>Queso medio curado cremoso</td>
+										  <td>200 gr</td>
+									  </tr>
+									  <tr>
+										  <td>Sal</td>
+										  <td>1 cucharada</td>
+									  </tr>
+								  </table>
+								  <table class="w3-table-all" style="font-size:0.9vw">
+									  <thead>
+										  <tr class="w3-red">
+											  <th>Utensilios</th>
+										  </tr>
+									  </thead>
+									  <tr>
+										  <td>Sarten</td>
+									  </tr>
+									  <tr>
+										  <td>Bol</td>
+									  </tr>
+								  </table>
+						  </div>
+						  <div class="w3-col w3-padding" style="width:50%;font-size:0.9vw">
+							  <h3>Preparacion</h3>
+							  <h4>Cómo hacer Mbejú o mbeyú:</h4>
+							  <ol start=1>
+								  <li><p>Para preparar esta receta de mbejú paraguayo, empieza por la base: el almidón de yuca. Añade en una fuente 
+								  junto con la sal y mézclalo bien.</p></li>
+								  <li><p>Ahora, añade el queso. Lo ideal es que sea un queso cremoso no muy fresco, pero tampoco muy maduro.</p></li>
+								  <li><p>Por último, agrega la grasa. Generalmente, se usa mantequilla, pero puedes usar margarina.</p></li>
+								  <li><p>Mezcla bien entre las manos para lograr una textura de arena no muy fina. De hecho, deben formarse bolitas más o menos grandes. Recuerda, no debe tener aspecto de masa, 
+								  la mezcla está lista cuando tiene la textura que observamos en la foto.</p></li>
+								  <li><p>Engrasa un poquito una sartén, apenas para evitar que se peguen, y extiende una porción de la mezcla cuando esté bien caliente.</p></li>
+								  <li><p>Procura no aplastar la mezcla contra el sartén. Lo único que debes hacer es sellar los bordes del mbejú con una cuchara o cuchillo plano.</p></li>
+								  <li><p>Para voltearlo, coloca un plato grande en la sartén para traspasar la tortilla y que quede la parte cocida hacia arriba.</p></li>
+								  <li><p>hora déjalo caer con cuidado en la sartén para cocerlo por el otro lado. Cuando esté listo, manténlos calientes y sirve acompañado de mate, café, té o leche caliente. También puedes servirlo con salchichas o panchos para acompañar una buena sopa de verduras o carne. 
+								  ¡Ya sabes cómo preparar mbejú en casa!</p></li>
+							  </ol>
+						  </div>		
+					  </div>
+				  </div>
+			  </div>
+			</div>
+
+			<div id="R6" class="w3-container w3-margin">
+				<div class="w3-white w3-row"> 
+					<div class="w3-col" style="width:80%">
+						<div class="w3-row w3-center w3-light-gray " style="width:100%">
+							<h2><a name="Receta 2"></a>Receta de Chipa Guazu</h2>
+						</div>
+						<div class="w3-row">
+							<div class="w3-col w3-center w3-padding" style="width:50%">
+								<img class="w3-image w3-border w3-padding w3-opacity w3-hover-opacity-off" 
+								style="width:90%" src="https://www.tembiuparaguay.com/wp-content/uploads/2044/12/chipaguazu.jpg"></img>
+							</div>
+							<div class="w3-col w3-padding" style="width:50%; font-size:0.9vw">
+								<h2>Breve reseña</h2>
+								<p>El chipa guasu o chipa guazu es uno de los platos típicos de la gastronomía paraguaya más consumidos. 
+								Junto con la Sopa paraguaya constituyen la guarnición más popular que acompañan a la mayoría de los platos, 
+								en especial a las carnes.No hay fiesta o reunión en la que no haya un buen plato de chipa guasu. Se acostumbra a 
+								comerlo tibio o caliente, pero se puede comer también una vez frío.</p>
+								<p>¿Qué es el chipa guasu? Cuando un extranjero me pregunta ¿qué es el chipa guasu? le respondo que es como un 
+								souflé salado de maíz y queso. Dicho por cocineros argentinos sería una choclotorta 🙂
+								En cuanto a la textura, hay quienes lo prefieren consistente, otros más bien casi líquidos como para comerlo con cuchara.
+								Encontrarás varias recetas de chipa guasu en la red y seguro todas serán buenas porque la combinación de huevos, queso y choclo no puede ser mala.
+								También me comentaron que en la receta primitiva, el chipa guasu no llevaba cebolla. Pienso que esta receta podría ser una evolución 
+								del Ka’i Ku’a y ahí tendría toda la lógica.</p>
+							</div>
+						</div>
+						<div class="w3-row">
+							<div class="w3-col w3-padding " style="width:50%;font-size:0.9vw">
+								<p>Características adicionales: Excelente para picar</p>
+								<h3>Ingredientes</h3>
+									<table class="w3-table-all" style="font-size:0.9vw">
+										<thead>
+											<tr class="w3-red">
+												<th> Ingrediente </th>
+												<th> Cantidad </th>
+											</tr>
+										</thead>
+										<tr>
+											<td>Choclo (maíz en grano)</td>
+											<td>1kg 6-8 mazorcas</td>
+										</tr>
+										<tr>
+											<td>Cebolla</td>
+											<td>1 grande, o 2 pequeñas</td>
+										</tr>
+										<tr>
+											<td>Aceite</td>
+											<td>20 gr</td>
+										</tr>
+										<tr>
+											<td>Sal</td>
+											<td>A gusto</td>
+										</tr>
+										<tr>
+											<td>Huevos</td>
+											<td>5 grandes</td>
+										</tr>
+										<tr>
+											<td>Leche cuajada</td>
+											<td>1/2 taza</td>
+										</tr>
+										<tr>
+											<td>Queso fresco</td>
+											<td>350 gr</td>
+										</tr>
+									</table>
+									<table class="w3-table-all" style="font-size:0.9vw">
+										<thead>
+											<tr class="w3-red">
+												<th>Utensilios</th>
+											</tr>
+										</thead>
+										<tr>
+											<td>Fuente</td>
+										</tr>
+										<tr>
+											<td>Bol</td>
+										</tr>
+									</table>
+							</div>
+							<div class="w3-col w3-padding" style="width:50%;font-size:0.9vw">
+								<h3>Preparacion</h3>
+								<h4>Cómo hacer la chipa guazu</h4>
+								<ol start=1>
+									<li><p>En una sartén, sofreímos la cebolla cortadas en julianas en el aceite o mantequilla, agregamos la sal y una vez que las cebollas están trasparentes, sacamos del fuego y reservamos.</p></li>
+									<li><p>En la licuadora o procesadora, ir licuando el choclo con un par de huevos y un chorrito de leche. (Como es un kilo de maíz, la hago en dos o tres veces).</p></li>
+									<li><p>Una vez procesadas. Agregamos a esta mezcla la cebolla cocida, el queso desmenuzado y comprobamos la sal.</p></li>
+									<li><p>Verter la preparación en una fuente enmantecada (también puedes usar aceite) y llevar al horno pre calentado  a 180ºC por 30 – 40 minutos aprox.</p></li>
+								</ol>
+							</div>		
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
 	</body>
 </html>
