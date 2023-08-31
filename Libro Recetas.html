@@ -6,16 +6,27 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="styles.css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-		<title>Libro de Recetas</title>
+		<script type="text/javascript" src="functions.js"></script>
+		<title>Sitio Web de Recetas</title>
 	</head>
 
 	
 	<body class="w3-light-grey">
-		
 		<div class="w3-bar-block w3-amber">
-			<div class="w3-bar-item w3-center w3-padding-34 w3-xxlarge w3-center">Libro de Recetas</div>
+			<div class="w3-bar-item w3-center w3-padding-34 w3-xxlarge w3-center">Sitio Web de Recetas</div>
 		</div>
-		
+		<div class="w3-bar-block w3-border w3-center w3-padding">
+			<button class="w3-button w3-round-xlarge w3-border" id="1" onclick="mostrarReceta(id)">
+				Bizcochuelo relleno con dulce de leche
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="2" onclick="mostrarReceta(id)">
+				Pizza Casera
+			</button>
+		</div>
+		<div id="Receta">
+
+		</div>	
+
 		<div class="w3-container">
 			<div class="w3-bar-item w3-xlarge">Contenido</div>
 		</div>
@@ -143,7 +154,161 @@
 				<li class="w3-li"><i>fuente bizcochuelo <a href="https://www.recetasgratis.net/receta-de-bizcochuelo-de-vainilla-esponjoso-57057.html" class="w3-button"> Ir a fuente</a></i></li>
 				<li class="w3-li"><i>fuente ñoquis <a href="https://www.paulinacocina.net/receta-de-gnocchi-o-noquis/12020" class="w3-button"> Ir a fuente</a></i></li>
 			</ul>
-		</div>
+		</div> 
+		<!-- agregue mis recetas, y las encerre en div con la clase:"w3-container w3-margin (Katteryne)" -->
+			<div id="3" class="w3-container w3-margin">
+				<a name="receta1">
+					<div class="w3-container w3-deep-orange ">
+						<h2 class="w3-center" style="font-size:3.5vw;">Receta de Bizcochuelo relleno con dulce de leche</h2>
+					</div>
+					<div class="w3-row w3-center ">
+						<div class="w3-col w3-container m6 l6 ">
+							<img class="w3-border w3-padding w3-image"  
+							alt="imagen bizcochuelo" src="https://cdn0.recetasgratis.net/es/posts/1/1/8/bizcochuelo_relleno_con_dulce_de_leche_76811_600.webp"/>
+						</div>
+						<div class="w3-col m6 l6 w3-container">
+							<h2 style="font-size:2.5vw;">Ingredientes</h2>
+							<table class="w3-table" style="font-size:1.8vw;">
+								<tr>
+									<td>
+										<ul class="w3-ul">
+										<li>huevos</li>
+										<li>120 ml de leche</li>
+										<li>1 taza de harina</li>
+										<li>una cucharada de polvo de hornear</li>
+										</ul>
+									</td>
+									<td>
+										<ul class="w3-ul">
+										<li>200 gr de dulce de leche</li>
+										<li>una cucharada de bicarbonato de sodio</li>
+										<li>1/3 taza de aceite</li>
+										<li>66 gr de azucar</li>
+										</ul>
+									</td>					
+								</tr>			
+							</table>				
+						</div>
+					</div>
+					
+					
+					<div class="w3-row w3-center w3-margin">
+						<h2 style="font-size:2.5vw;">Preparación</h2>
+					</div>
+					<div class="w3-row w3-margin" style="font-size:2vw;">
+						<ol start=1 >
+						<b>
+						<li><p>El primer paso para preparar el bizcochuelo relleno con dulce de leche consiste
+						en batir por unos 3 minutos el huevo a temperatura ambiente con el azúcar y el aceite.
+						También puedes añadir una pizca de sal para un batido más aereado.</li>
+						<li><p>Luego, añade la leche y bate para integrar. Si lo deseas, puedes reemplazar la 
+						leche por el jugo de limón o agua, aunque esta le dará un sabor y humedad única.</p></li>
+						<li><p>Cuando estén integrados los ingredientes húmedos, añade la mitad de la harina junto 
+						con el polvo para hornear y el bicarbonato de sodio. Es importante que todos estos ingredientes 
+						estén previamente tamizados para evitar grumos. Bate solo unos segundos para integrar. Si lo deseas,
+						puedes reemplazar la harina por leudante. En ese caso, no será necesario añadir el polvo para
+						hornear.</p></li>
+						<li><p>Agrega la mitad de la harina restante, también tamizada, e integra esta vez con batidor de 
+						mano y movimientos envolventes. Corrobora la consistencia del bizcochuelo, si está muy espeso puedes 
+						añadir 1 cucharadita de vinagre de alcohol o más leche o agua. Si está muy líquido, puedes agregar más 
+						harina tamizada o almidón de maiz. Esto dependerá de la capacidad de absorción de líquido de la harina 
+						que utilizas, así como el tamaño del huevo. Mide todos los ingredientes con la misma taza.</p></li>
+						<li><p>Prepara el molde donde deseas cocinar el bizcochuelo relleno con dulce de leche. En este caso,
+						es uno desmontable de 16 centímetros de diámetro. El mismo deberá estar engrasado y enharinado. Además,
+						puedes cubrir el fondo con papel manteca y la base exterior con papel aluminio. Enciende el horno para
+						que se precaliente a 180 ºC.</p></li>
+						<li><p>Vuelca la preparación de tu bizcochuelo en el molde y cocínalo en el horno a 180ºC por unos 
+						25 minutos. Pasado ese tiempo, retira el papel aluminio con cuidado de no quemarte y cocínalo 
+						por unos 10 minutos más hasta que, al pincharlo, no salgan restos de la preparación. Déjalo 
+						entibiar dentro del horno y, una vez frío, desmóldalo.</p></li>
+						<li><p>Una vez frío, desmolda el bizcochuelo y córtalo al medio con ayuda de un cuchillo de pan,
+						es decir, con serrucho.</p></li>
+						<li><p>Rellena la mitad de la base con abundante dulce de leche y tápalo, cerrando nuevamente tu bizcochuelo. 
+						Llévalo a la nevera por al menos unos 40 minutos para que el dulce tome cuerpo y no se desarme al cortarlo.</p></li>
+						</b>
+					</ol>
+					</div>
+					<div class="w3-row w3-container w3-margin w3-deep-orange" style="font-size:1.5vw;width:15%">
+						
+						<a href="https://www.recetasgratis.net/receta-de-bizcochuelo-relleno-con-dulce-de-leche-76811.html" class="w3-button">fuente:aqui</a>		
+						
+					</div>
+					<br>
+			</div>
+			<div id="4" class="w3-container w3-margin">
+				<a name="receta2">
+					<div class="w3-container w3-deep-orange ">
+						<h2 class="w3-center" style="font-size:3.5vw;">Receta de Pizza casera</h2>
+						
+					</div>
+					<div class="w3-row w3-center ">
+						<div class="w3-col w3-container m6 l6 ">				
+							<img class="w3-border w3-padding w3-image"  
+							alt="imagen bizcochuelo" src="https://cdn0.recetasgratis.net/es/posts/1/9/3/pizza_casera_31391_600.webp"/>
+						</div>
+						<div class="w3-col m6 l6 w3-container">
+							<h2 style="font-size:2.5vw;">Ingredientes</h2>
+							<table class="w3-table" style="font-size:2vw;">
+								<tr>
+									<td>
+										<ul class="w3-ul">
+											<li> 1 kilogramo de harina de fuerza (también conocida como harina 00) </li>
+											<li> 1 cucharadita de sal fina</li>
+											<li>2½ tazas de agua tibia </li>
+										</ul>
+									</td>
+									<td>
+										<ul class="w3-ul">								
+											<li>2 cucharadas soperas de aceite de oliva</li>
+											<li>30 gramos de levadura fresca </li>
+										</ul>
+									</td>					
+								</tr>			
+							</table>				
+						</div>
+					</div>
+					
+					
+					<div class="w3-row w3-center w3-margin">
+						<h2 style="font-size:2.5vw;">Preparación</h2>
+					</div>
+					<div class="w3-row w3-margin" style="font-size:2vw;">
+						<ol start=1 >
+						<b>
+						<li><p>Antes de empezar con la receta de pizza casera fácil resulta fundamental hacer una pequeña
+						aclaración sobre la harina. Para realizar este tipo de masas, la harina más recomendada es la de fuerza,
+						puesto que al contener un mayor porcentaje de gluten el resultado será una masa de pizza casera mucho más
+						esponjosa. En los países de América Latina, sobre todo, este tipo de harina es conocido como harina 
+						00. Ahora bien, si quieres hacer pizza casera sin gluten, consulta esta otra receta.</li>
+						<li><p>Ahora sí, ¡empezamos la receta de pizza casera! Para ello, lo primero que vamos a hacer es mezclar
+						en un recipiente el agua templada con la levadura fresca. Para elaborar una masa para pizza casera fácilmente
+						puedes utilizar este tipo de levadura o hacer una masa de pizza con levadura seca, ambas son válidas.
+						En el caso de que prefieras la seca, deberás mezclarla con la harina y si, por el contrario, prefieres
+						la fresca, es fundamental mezclarla con agua tibia. La levadura fresca es aquella que se vende en bloque
+						y se tiene que conservar en el frigorífico.<br>
+						En general, unos 30 gramos de levadura fresca equivalen a unos 10 gramos de levadura seca, tenlo en cuenta
+						por si quieres usar una levadura diferente a la de esta receta de pizza italiana.</p></li>
+						<li><p>Cuando hayas mezclado la levadura con el agua, agrega las dos cucharadas de aceite. Mezcla bien 
+						para que se integren todos los ingredientes para la pizza.</p></li>
+						<li><p>Antes de que la preparación se enfríe, añade en un bol amplio la harina de fuerza y la sal, 
+						acomódalas en forma de volcán. Vierte la mezcla anterior en el centro.</p></li>
+						<li><p>Ahora es cuando tienes que empezar a amasar bien hasta que notes que la masa de pizza casera 
+						deja de pegarse en tus manos y puedes manejarla sin problemas.</p></li>
+						<li><p>Cuando tengas la masa de pizza esponjosa lista, deberás darle forma de tubo largo y cortarla en 
+						4 particiones. Después, haz una bola con cada partición y tápalas con un trapo limpio y seco. Deberás 
+						dejarlas reposar durante 45 minutos. Verás que, poco a poco, empiezan a elevarse hasta duplicar su volumen.
+						Cada bola de masa te servirá para hacer una pizza casera normal.</p></li>
+						<li><p>Pasado el tiempo correspondiente, espolvorea un poco de harina sobre una mesa para preparar la pizza casera,
+						coge una de las bolas y colócala sobre ella. Ahora deberás extenderla con tus manos estirando desde el centro hacia
+						los costados, dándole forma circular. Si dispones de rodillo también puedes utilizarlo para que quede más fina la masa.
+						Una vez estirada, ya puedes añadir la salsa para pizza casera y los ingredientes para pizza que prefieras. Puedes usar 
+						esta deliciosa receta casera de salsa de tomate y cebolla para pizza.</p></li>
+						</b>
+					</ol>
+					</div>
+					<div class="w3-row w3-container w3-margin w3-deep-orange" style="font-size:1.5vw;width:15%">	
+						<a href="https://www.recetasgratis.net/receta-de-pizza-casera-31391.html" class="w3-button">fuente:aqui</a>		
+					</div>
+			</div>			
 	</body>
-
 </html>
