@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script type="text/javascript" src="functions.js"></script>
+		<title>Sitio Web de Recetas</title>
+	</head>
+
+	
+	<body class="w3-light-grey">
+		<div class="w3-bar-block w3-amber">
+			<div class="w3-bar-item w3-center w3-padding-34 w3-xxlarge w3-center">Sitio Web de Recetas</div>
+		</div>
+		<!-- div de botones -->
+		<div class="w3-bar-block w3-border w3-center w3-padding" style="font-size:2vw;">
+			<button class="w3-button w3-round-xlarge w3-border" id="1" onclick="mostrarReceta(id)">
+				Bizcochuelo de Vainilla
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="2" onclick="mostrarReceta(id)">
+				Noquis
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="3" onclick="mostrarReceta(id)">
+				Bizcochuelo de dulce de leche
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="4" onclick="mostrarReceta(id)">
+				Pizza Casera
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="5" onclick="mostrarReceta(id)">
+				Mbeju
+			</button>
+			<button class="w3-button w3-round-xlarge w3-border" id="6" onclick="mostrarReceta(id)">
+				Chipa Guazu
+			</button>
+		</div>
+		<div id="mensajeInicial" class="w3-display-middle" style="font-size:2vw;">
+
+		</div>	
+
+		<!-- <div class="w3-container">
+			<div class="w3-bar-item w3-xlarge">Contenido</div>
+		</div>
+		 -->
+		<!-- <div class="w3-container">
+			<ol class="w3-ol">
+				<li class="w3-li">
+					<a class="w3-text-orange w3-margin-bottom" href="#bizcochuelo">Receta de Bizcochuelo</a>
+				</li>
+			
+				<li class="w3-li">
+					<a class="w3-text-orange" href="#noquis">Receta de Noquis</a>
+				</li>
+			</ol>
+		</div> -->
+
+		<!-- encerre mis recetas en un div con la clase:"w3-container w3-margin (johan)" -->
+		<div id="R1" class="w3-container w3-margin">
+			<div class="w3-bar-item w3-xlarge">Mis Recetas</div>
+		<div class="w3-container">
+			<a id="bizcochuelo"></a>
+			<h3 class="w3-text-green w3-center titulo">Receta de Bizcochuelo</h3>
+		
+			<img class="w3-image w3-border w3-padding w3-responsive w3-round-medium" src="https://cdn0.recetasgratis.net/es/posts/7/5/0/bizcochuelo_de_vainilla_esponjoso_57057_600.webp" alt="Bizcochuelo" style="">
+			<p>
+				Los bizcochuelos son de esos postres caseros que siempre nos hacen sentir queridos y en casa.
+				No hay nada como percibir el aroma de un bizcocho recién horneado y probar ese primer bocado en compañía de los niños, la familia o los amigos.
+				Aprender cómo hacer un bizcochuelo de vainilla casero y esponjoso es un hito en la vida de cualquier amante de la repostería.
+			</p>
+			
+			<p>
+				Pues bien, en RecetasGratis te enseñaremos todos los secretos y los pasos que debes seguir para preparar una perfecta receta de bizcochuelo
+				de vainilla esponjoso fácil y económico.
+			</p>
+		</div>
+		<div class="w3-container">
+			<h3 class="w3-text-red">Ingredientes</h3>
+		
+			<ul class="w3-ul w3 w3-khaki"> 
+				<li class="w3-li elementos">4 huevos</li>
+				<li class="w3-li elementos">400 gramos de azucar</li>
+				<li class="w3-li elementos">400 gramos de harina leudante</li>
+				<li class="w3-li elementos">240 mililitros</li>
+				<li class="w3-li elementos">1 cucharadita de esencia de vainilla</li>
+				<li class="w3-li elementos">100 mililitros de aceite</li>
+			</ul>
+		</div>
+		
+		<div class="w3-container">
+			<h3 class="w3-text-red">Preparacion</h3>
+			<ol class="w3-ol">
+				<li class="w3-li elementos">Para empezar a hacer este delicioso bizcochuelo de vainilla, bate el azúcar con los huevos hasta que se integren completamente.</li>
+				<li class="w3-li elementos">Ahora, para preparar la masa de un bizcochuelo de vainilla esponjoso, tamiza la harina leudante antes de añadirla a la mezcla.
+					Agrega la mitad de la harina leudante y bate de forma envolvente. A continuación, incorpora la leche y cuando ya se haya integrado,
+					añade el resto de la harina.
+				</li>
+				<li class="w3-li elementos">Hornea el bizcochuelo en el horno a 180 ºC por 45 minutos o hasta que esté doradito. Ten en cuenta que la temperatura dependerá de la potencia del horno, así como del tipo de horno.
+					Por ello, te recomendamos que vayas revisando cada cierto tiempo cómo va tu bizcochuelo de vainilla para que no se pase ni quede crudo. Puedes hacerlo insertando un cuchillo en el medio del bizcocho, si sale seco, ¡tu postre estará listo!
+					Truco: precalienta el horno antes de meter el bizcocho, así te asegurarás de que se horneará de manera uniforme.
+				</li>
+				<li class="w3-li elementos">Deja reposar unos minutos y cuando haya tomado temperatura ambiente, desmolda el bizcochuelo de vainilla esponjoso</li>
+			</ol>
+			
+			<div class="w3-container w3-amber">
+				<p class="w3-large">Enlace a fuente</p>
+				<ul class="w3-ul w3">
+					<li class="w3-li"><i>fuente bizcochuelo <a href="https://www.recetasgratis.net/receta-de-bizcochuelo-de-vainilla-esponjoso-57057.html" class="w3-button"> Ir a fuente</a></i></li>
+				</ul>
+			</div> 
+		</div>
+		</div>
+		<div id="R2" class="w3-container w3-margin">
+		<div class="w3-container">
+			<a id="noquis"></a>
+			<h3 class="w3-text-green w3-center titulo">Receta de Noquis</h3>
+		
+			<img class="w3-image w3-border w3-padding w3-responsive w3-round-medium" src="https://www.paulinacocina.net/wp-content/uploads/2023/08/gnocchi-receta-640x360.jpg" alt="Noquis">
+		
+			<p>
+				Hacer ñoquis de papa caseros tiene muchas ventajas, además de ser una comida económica,
+				son fáciles y extremadamente ricos. Para que sean un éxito, sólo tenemos
+				que tener en cuenta ciertos tips o claves.
+			</p>
+			
+			<p>
+				Primero, la papa. Lo ideal es que los ñoquis tengan como ingrediente principal la papa, y no la harina como otras pastas. Así que tenemos que ser cuidadosos  a la hora de cocinarla. Es importante que no absorba mucha agua en la cocción,
+				así evitamos sumar mucha harina para lograr una masa.
+			</p>
+		</div>
+		
+		<div class="w3-container">
+			<h3 class="w3-text-red">Ingredientes</h3>
+			<h4 class="">Para 4 porciones</h4>
+			<ul class="w3-ul w3 w3-khaki"> 
+				<li class="w3-li elementos">1 kg de papa</li>
+				<li class="w3-li elementos">300 gramos de harina 0000</li>
+				<li class="w3-li elementos">1 huevo</li>
+				<li class="w3-li elementos">sal y pimienta</li>
+			
+			</ul>
+		</div>
+		
+		<div class="w3-container">
+			<h3 class="w3-text-red">Preparacion</h3>
+			<ol class="w3-ol">
+				<li class="w3-li elementos">Lo primero que vamos a hacer lavar bien las papas ya que las vamos a hervir con cáscara. Esto es muy importante para que luego los ñoquis de papa no se desarmen,
+					ya que al cocerlas con cáscara evitamos que absorban agua en exceso.
+					Hacemos un corte horizontal por todo el contorno de la papa,
+					y las llevamos a una olla con agua. Cocinar hasta que al pincharlas se caigan.</li>
+				<li class="w3-li elementos">Las retiramos y las dejamos enfriar sólo para no quemarnos. Con el corte que hicimos,
+					la cáscara tiene que salir muy fácil en dos partes. </li>
+				<li class="w3-li elementos">Pisamos las papas todavía en caliente como todo puré digno, agregamos sal,
+					pimienta y mezclamos super bien. Agregamos el huevo batido y la harina.
+					No le vamos a agregar toda la harina de una, nos vamos a guardar un poco para ver cómo
+					viene. Las cantidades son más bien proporcionales, puede ser que la papa haya absorbido
+					más agua o que el huevo sea más chico, así que vamos a agregar la harina de a poco.</li>
+				<li class="w3-li elementos">Unir con la mano hasta que se pueda pasar hasta la mesada y terminar de integrar.
+					Si en este paso ven que hace falta más harina, tenemos el resto para agregar.
+					No es necesario amar mucho, la idea es llegar a una masa unida y uniforme sin tocarla mucho.</li>
+				<li class="w3-li elementos">Cortar tiras de masa y hacer chorricitos o rollitos, y cortar trocitos de unos 2 o 3 cm 
+					de ancho, pueden enharinar el cuchillo para que sea más fácil.</li>
+				<li class="w3-li elementos">Ahora viene la magia, vamos a pasarlos por la herramienta para darle forma a los ñoquis
+					de papa de arriba hacia abajo. También pueden usar un tenedor enharinado que también les deja una forma similar.
+					Colocarlos en una placa enharinada sin que se toquen para que no se pegoteen. Y claro, también pueden hacerlos sin la herramienta y simplemente que queden en su versión más rústica.</li>
+				<li class="w3-li elementos">Para la cocción, llevar de a tandas a una olla con agua hirviendo con sal.
+					Van a ver que se caen al fondo. Cuando suben, los dejan 1 minuto y ya están listos!</li>
+			</ol>
+			<div class="w3-container w3-panel w3-border-top w3-border-black">
+				<p class="w3-large">Enlace a fuente</p>
+			</div>
+			<div class="w3-container w3-amber">
+				<ul class="w3-ul w3">
+					<li class="w3-li"><i>fuente ñoquis <a href="https://www.paulinacocina.net/receta-de-gnocchi-o-noquis/12020" class="w3-button"> Ir a fuente</a></i></li>
+				</ul>
+			</div> 
+		</div>
+		</div>
+		
+		<!--comentario-->
+		<!-- agregue mis recetas, y las encerre en div con la clase:"w3-container w3-margin (Katteryne)" -->
+			<div id="R3" class="w3-container w3-margin">
+				<a name="receta1">
+					<div class="w3-container w3-deep-orange ">
+						<h2 class="w3-center" style="font-size:3.5vw;">Receta de Bizcochuelo relleno con dulce de leche</h2>
+					</div>
+					<div class="w3-row w3-center ">
+						<div class="w3-col w3-container m6 l6 ">
+							<img class="w3-border w3-padding w3-image"  
+							alt="imagen bizcochuelo" src="https://cdn0.recetasgratis.net/es/posts/1/1/8/bizcochuelo_relleno_con_dulce_de_leche_76811_600.webp"/>
+						</div>
+						<div class="w3-col m6 l6 w3-container">
+							<h2 style="font-size:2.5vw;">Ingredientes</h2>
+							<table class="w3-table" style="font-size:1.8vw;">
+								<tr>
+									<td>
+										<ul class="w3-ul">
+										<li>huevos</li>
+										<li>120 ml de leche</li>
+										<li>1 taza de harina</li>
+										<li>una cucharada de polvo de hornear</li>
+										</ul>
+									</td>
+									<td>
+										<ul class="w3-ul">
+										<li>200 gr de dulce de leche</li>
+										<li>una cucharada de bicarbonato de sodio</li>
+										<li>1/3 taza de aceite</li>
+										<li>66 gr de azucar</li>
+										</ul>
+									</td>					
+								</tr>			
+							</table>				
+						</div>
+					</div>
+					
+					
+					<div class="w3-row w3-center w3-margin">
+						<h2 style="font-size:2.5vw;">Preparación</h2>
+					</div>
+					<div class="w3-row w3-margin" style="font-size:2vw;">
+						<ol start=1 >
+						<b>
+						<li><p>El primer paso para preparar el bizcochuelo relleno con dulce de leche consiste
+						en batir por unos 3 minutos el huevo a temperatura ambiente con el azúcar y el aceite.
+						También puedes añadir una pizca de sal para un batido más aereado.</li>
+						<li><p>Luego, añade la leche y bate para integrar. Si lo deseas, puedes reemplazar la 
+						leche por el jugo de limón o agua, aunque esta le dará un sabor y humedad única.</p></li>
+						<li><p>Cuando estén integrados los ingredientes húmedos, añade la mitad de la harina junto 
+						con el polvo para hornear y el bicarbonato de sodio. Es importante que todos estos ingredientes 
+						estén previamente tamizados para evitar grumos. Bate solo unos segundos para integrar. Si lo deseas,
+						puedes reemplazar la harina por leudante. En ese caso, no será necesario añadir el polvo para
+						hornear.</p></li>
+						<li><p>Agrega la mitad de la harina restante, también tamizada, e integra esta vez con batidor de 
+						mano y movimientos envolventes. Corrobora la consistencia del bizcochuelo, si está muy espeso puedes 
+						añadir 1 cucharadita de vinagre de alcohol o más leche o agua. Si está muy líquido, puedes agregar más 
+						harina tamizada o almidón de maiz. Esto dependerá de la capacidad de absorción de líquido de la harina 
+						que utilizas, así como el tamaño del huevo. Mide todos los ingredientes con la misma taza.</p></li>
+						<li><p>Prepara el molde donde deseas cocinar el bizcochuelo relleno con dulce de leche. En este caso,
+						es uno desmontable de 16 centímetros de diámetro. El mismo deberá estar engrasado y enharinado. Además,
+						puedes cubrir el fondo con papel manteca y la base exterior con papel aluminio. Enciende el horno para
+						que se precaliente a 180 ºC.</p></li>
+						<li><p>Vuelca la preparación de tu bizcochuelo en el molde y cocínalo en el horno a 180ºC por unos 
+						25 minutos. Pasado ese tiempo, retira el papel aluminio con cuidado de no quemarte y cocínalo 
+						por unos 10 minutos más hasta que, al pincharlo, no salgan restos de la preparación. Déjalo 
+						entibiar dentro del horno y, una vez frío, desmóldalo.</p></li>
+						<li><p>Una vez frío, desmolda el bizcochuelo y córtalo al medio con ayuda de un cuchillo de pan,
+						es decir, con serrucho.</p></li>
+						<li><p>Rellena la mitad de la base con abundante dulce de leche y tápalo, cerrando nuevamente tu bizcochuelo. 
+						Llévalo a la nevera por al menos unos 40 minutos para que el dulce tome cuerpo y no se desarme al cortarlo.</p></li>
+						</b>
+					</ol>
+					</div>
+					<div class="w3-row w3-container w3-margin w3-deep-orange" style="font-size:1.5vw;width:15%">
+						
+						<a href="https://www.recetasgratis.net/receta-de-bizcochuelo-relleno-con-dulce-de-leche-76811.html" class="w3-button">fuente:aqui</a>		
+						
+					</div>
+					<br>
+			</div>
+			<div id="R4" class="w3-container w3-margin">
+				<a name="receta2">
+					<div class="w3-container w3-deep-orange ">
+						<h2 class="w3-center" style="font-size:3.5vw;">Receta de Pizza casera</h2>
+						
+					</div>
+					<div class="w3-row w3-center ">
+						<div class="w3-col w3-container m6 l6 ">				
+							<img class="w3-border w3-padding w3-image"  
+							alt="imagen bizcochuelo" src="https://cdn0.recetasgratis.net/es/posts/1/9/3/pizza_casera_31391_600.webp"/>
+						</div>
+						<div class="w3-col m6 l6 w3-container">
+							<h2 style="font-size:2.5vw;">Ingredientes</h2>
+							<table class="w3-table" style="font-size:2vw;">
+								<tr>
+									<td>
+										<ul class="w3-ul">
+											<li> 1 kilogramo de harina de fuerza (también conocida como harina 00) </li>
+											<li> 1 cucharadita de sal fina</li>
+											<li>2½ tazas de agua tibia </li>
+										</ul>
+									</td>
+									<td>
+										<ul class="w3-ul">								
+											<li>2 cucharadas soperas de aceite de oliva</li>
+											<li>30 gramos de levadura fresca </li>
+										</ul>
+									</td>					
+								</tr>			
+							</table>				
+						</div>
+					</div>
+					
+					
+					<div class="w3-row w3-center w3-margin">
+						<h2 style="font-size:2.5vw;">Preparación</h2>
+					</div>
+					<div class="w3-row w3-margin" style="font-size:2vw;">
+						<ol start=1 >
+						<b>
+						<li><p>Antes de empezar con la receta de pizza casera fácil resulta fundamental hacer una pequeña
+						aclaración sobre la harina. Para realizar este tipo de masas, la harina más recomendada es la de fuerza,
+						puesto que al contener un mayor porcentaje de gluten el resultado será una masa de pizza casera mucho más
+						esponjosa. En los países de América Latina, sobre todo, este tipo de harina es conocido como harina 
+						00. Ahora bien, si quieres hacer pizza casera sin gluten, consulta esta otra receta.</li>
+						<li><p>Ahora sí, ¡empezamos la receta de pizza casera! Para ello, lo primero que vamos a hacer es mezclar
+						en un recipiente el agua templada con la levadura fresca. Para elaborar una masa para pizza casera fácilmente
+						puedes utilizar este tipo de levadura o hacer una masa de pizza con levadura seca, ambas son válidas.
+						En el caso de que prefieras la seca, deberás mezclarla con la harina y si, por el contrario, prefieres
+						la fresca, es fundamental mezclarla con agua tibia. La levadura fresca es aquella que se vende en bloque
+						y se tiene que conservar en el frigorífico.<br>
+						En general, unos 30 gramos de levadura fresca equivalen a unos 10 gramos de levadura seca, tenlo en cuenta
+						por si quieres usar una levadura diferente a la de esta receta de pizza italiana.</p></li>
+						<li><p>Cuando hayas mezclado la levadura con el agua, agrega las dos cucharadas de aceite. Mezcla bien 
+						para que se integren todos los ingredientes para la pizza.</p></li>
+						<li><p>Antes de que la preparación se enfríe, añade en un bol amplio la harina de fuerza y la sal, 
+						acomódalas en forma de volcán. Vierte la mezcla anterior en el centro.</p></li>
+						<li><p>Ahora es cuando tienes que empezar a amasar bien hasta que notes que la masa de pizza casera 
+						deja de pegarse en tus manos y puedes manejarla sin problemas.</p></li>
+						<li><p>Cuando tengas la masa de pizza esponjosa lista, deberás darle forma de tubo largo y cortarla en 
+						4 particiones. Después, haz una bola con cada partición y tápalas con un trapo limpio y seco. Deberás 
+						dejarlas reposar durante 45 minutos. Verás que, poco a poco, empiezan a elevarse hasta duplicar su volumen.
+						Cada bola de masa te servirá para hacer una pizza casera normal.</p></li>
+						<li><p>Pasado el tiempo correspondiente, espolvorea un poco de harina sobre una mesa para preparar la pizza casera,
+						coge una de las bolas y colócala sobre ella. Ahora deberás extenderla con tus manos estirando desde el centro hacia
+						los costados, dándole forma circular. Si dispones de rodillo también puedes utilizarlo para que quede más fina la masa.
+						Una vez estirada, ya puedes añadir la salsa para pizza casera y los ingredientes para pizza que prefieras. Puedes usar 
+						esta deliciosa receta casera de salsa de tomate y cebolla para pizza.</p></li>
+						</b>
+					</ol>
+					</div>
+					<div class="w3-row w3-container w3-margin w3-deep-orange" style="font-size:1.5vw;width:15%">	
+						<a href="https://www.recetasgratis.net/receta-de-pizza-casera-31391.html" class="w3-button">fuente:aqui</a>		
+					</div>
+			</div>	
+			
+			<!-- agregue mis recetas (Renato)" -->
+			<div id="R5" class="w3-container w3-margin">
+			  <div class="w3-white w3-row"> 
+				  <div class="w3-col" style="width:80%">
+					  <div class="w3-row w3-center w3-light-gray " style="width:100%">
+						  <h2><a name="Receta 1"></a>Receta de Mbejú o mbeyú</h2>
+					  </div>
+					  <div class="w3-row">
+						  <div class="w3-col w3-center w3-padding" style="width:50%">
+							  <img class="w3-image w3-border w3-padding w3-opacity w3-hover-opacity-off" style="width:90%" src="https://camilamade.com/wp-content/uploads/2020/01/Mbeju-Authentic-Paraguayan-Yucca-Starch-Pancakes.jpeg"></img>
+						  </div>
+						  <div class="w3-col w3-padding" style="width:50%; font-size:0.9vw">
+							  <h2>Breve reseña</h2>
+							  <p>El mbejú o mbeyú es un plato sincrético que proviene de Paraguay, al sur de América. De clara influencia indígena guaraní por el uso 
+							  del almidón de mandioca o yuca, también se le agrega queso y mantequilla, productos añadidos por los jesuitas españoles.
+							  De hecho, la misma palabra 'mbejú' -o 'mbeyú'- es un vocablo guaraní que significa “torta aplastada”, y en esto consiste esta 
+							  preparación: es una especie de tortilla que reúne los ingredientes anteriores y que se cocinan asados en una sartén. El mbejú 
+							  suele disfrutarse como desayuno, acompañado de mate, café, té o leche, y también se acostumbra a servirse con motivo de la 
+							  festividad de San Juan. Aunque hay varios tipos de mbejú, el que te compartimos en ÑandeTembiu es el más sencillo y que podrás 
+							  preparar en tu casa sin dificultades.</p>
+							  <p>Acércate a tierras paraguayas preparando uno de sus platos más apreciados y populares, y descubre cómo hacer mbejú en pocos pasos.</p>
+						  </div>
+					  </div>
+					  <div class="w3-row">
+						  <div class="w3-col w3-padding " style="width:50%;font-size:0.9vw">
+							  <p>Características adicionales: Coste barato, Popular en Otras fiestas, Frito, Receta tradicional de Paraguay</p>
+							  <h3>Ingredientes</h3>
+								  <table class="w3-table-all" style="font-size:0.9vw">
+									  <thead>
+										  <tr class="w3-red">
+											  <th> Ingrediente </th>
+											  <th> Cantidad </th>
+										  </tr>
+									  </thead>
+									  <tr>
+										  <td>Almidón de mandioca o yuca amargo</td>
+										  <td>500 gr</td>
+									  </tr>
+									  <tr>
+										  <td>Mantequilla o margarina</td>
+										  <td>200 gr</td>
+									  </tr>
+									  <tr>
+										  <td>Queso medio curado cremoso</td>
+										  <td>200 gr</td>
+									  </tr>
+									  <tr>
+										  <td>Sal</td>
+										  <td>1 cucharada</td>
+									  </tr>
+								  </table>
+								  <table class="w3-table-all" style="font-size:0.9vw">
+									  <thead>
+										  <tr class="w3-red">
+											  <th>Utensilios</th>
+										  </tr>
+									  </thead>
+									  <tr>
+										  <td>Sarten</td>
+									  </tr>
+									  <tr>
+										  <td>Bol</td>
+									  </tr>
+								  </table>
+						  </div>
+						  <div class="w3-col w3-padding" style="width:50%;font-size:0.9vw">
+							  <h3>Preparacion</h3>
+							  <h4>Cómo hacer Mbejú o mbeyú:</h4>
+							  <ol start=1>
+								  <li><p>Para preparar esta receta de mbejú paraguayo, empieza por la base: el almidón de yuca. Añade en una fuente 
+								  junto con la sal y mézclalo bien.</p></li>
+								  <li><p>Ahora, añade el queso. Lo ideal es que sea un queso cremoso no muy fresco, pero tampoco muy maduro.</p></li>
+								  <li><p>Por último, agrega la grasa. Generalmente, se usa mantequilla, pero puedes usar margarina.</p></li>
+								  <li><p>Mezcla bien entre las manos para lograr una textura de arena no muy fina. De hecho, deben formarse bolitas más o menos grandes. Recuerda, no debe tener aspecto de masa, 
+								  la mezcla está lista cuando tiene la textura que observamos en la foto.</p></li>
+								  <li><p>Engrasa un poquito una sartén, apenas para evitar que se peguen, y extiende una porción de la mezcla cuando esté bien caliente.</p></li>
+								  <li><p>Procura no aplastar la mezcla contra el sartén. Lo único que debes hacer es sellar los bordes del mbejú con una cuchara o cuchillo plano.</p></li>
+								  <li><p>Para voltearlo, coloca un plato grande en la sartén para traspasar la tortilla y que quede la parte cocida hacia arriba.</p></li>
+								  <li><p>hora déjalo caer con cuidado en la sartén para cocerlo por el otro lado. Cuando esté listo, manténlos calientes y sirve acompañado de mate, café, té o leche caliente. También puedes servirlo con salchichas o panchos para acompañar una buena sopa de verduras o carne. 
+								  ¡Ya sabes cómo preparar mbejú en casa!</p></li>
+							  </ol>
+						  </div>		
+					  </div>
+				  </div>
+			  </div>
+			</div>
+
+			<div id="R6" class="w3-container w3-margin">
+				<div class="w3-white w3-row"> 
+					<div class="w3-col" style="width:80%">
+						<div class="w3-row w3-center w3-light-gray " style="width:100%">
+							<h2><a name="Receta 2"></a>Receta de Chipa Guazu</h2>
+						</div>
+						<div class="w3-row">
+							<div class="w3-col w3-center w3-padding" style="width:50%">
+								<img class="w3-image w3-border w3-padding w3-opacity w3-hover-opacity-off" 
+								style="width:90%" src="https://www.tembiuparaguay.com/wp-content/uploads/2044/12/chipaguazu.jpg"></img>
+							</div>
+							<div class="w3-col w3-padding" style="width:50%; font-size:0.9vw">
+								<h2>Breve reseña</h2>
+								<p>El chipa guasu o chipa guazu es uno de los platos típicos de la gastronomía paraguaya más consumidos. 
+								Junto con la Sopa paraguaya constituyen la guarnición más popular que acompañan a la mayoría de los platos, 
+								en especial a las carnes.No hay fiesta o reunión en la que no haya un buen plato de chipa guasu. Se acostumbra a 
+								comerlo tibio o caliente, pero se puede comer también una vez frío.</p>
+								<p>¿Qué es el chipa guasu? Cuando un extranjero me pregunta ¿qué es el chipa guasu? le respondo que es como un 
+								souflé salado de maíz y queso. Dicho por cocineros argentinos sería una choclotorta 🙂
+								En cuanto a la textura, hay quienes lo prefieren consistente, otros más bien casi líquidos como para comerlo con cuchara.
+								Encontrarás varias recetas de chipa guasu en la red y seguro todas serán buenas porque la combinación de huevos, queso y choclo no puede ser mala.
+								También me comentaron que en la receta primitiva, el chipa guasu no llevaba cebolla. Pienso que esta receta podría ser una evolución 
+								del Ka’i Ku’a y ahí tendría toda la lógica.</p>
+							</div>
+						</div>
+						<div class="w3-row">
+							<div class="w3-col w3-padding " style="width:50%;font-size:0.9vw">
+								<p>Características adicionales: Excelente para picar</p>
+								<h3>Ingredientes</h3>
+									<table class="w3-table-all" style="font-size:0.9vw">
+										<thead>
+											<tr class="w3-red">
+												<th> Ingrediente </th>
+												<th> Cantidad </th>
+											</tr>
+										</thead>
+										<tr>
+											<td>Choclo (maíz en grano)</td>
+											<td>1kg 6-8 mazorcas</td>
+										</tr>
+										<tr>
+											<td>Cebolla</td>
+											<td>1 grande, o 2 pequeñas</td>
+										</tr>
+										<tr>
+											<td>Aceite</td>
+											<td>20 gr</td>
+										</tr>
+										<tr>
+											<td>Sal</td>
+											<td>A gusto</td>
+										</tr>
+										<tr>
+											<td>Huevos</td>
+											<td>5 grandes</td>
+										</tr>
+										<tr>
+											<td>Leche cuajada</td>
+											<td>1/2 taza</td>
+										</tr>
+										<tr>
+											<td>Queso fresco</td>
+											<td>350 gr</td>
+										</tr>
+									</table>
+									<table class="w3-table-all" style="font-size:0.9vw">
+										<thead>
+											<tr class="w3-red">
+												<th>Utensilios</th>
+											</tr>
+										</thead>
+										<tr>
+											<td>Fuente</td>
+										</tr>
+										<tr>
+											<td>Bol</td>
+										</tr>
+									</table>
+							</div>
+							<div class="w3-col w3-padding" style="width:50%;font-size:0.9vw">
+								<h3>Preparacion</h3>
+								<h4>Cómo hacer la chipa guazu</h4>
+								<ol start=1>
+									<li><p>En una sartén, sofreímos la cebolla cortadas en julianas en el aceite o mantequilla, agregamos la sal y una vez que las cebollas están trasparentes, sacamos del fuego y reservamos.</p></li>
+									<li><p>En la licuadora o procesadora, ir licuando el choclo con un par de huevos y un chorrito de leche. (Como es un kilo de maíz, la hago en dos o tres veces).</p></li>
+									<li><p>Una vez procesadas. Agregamos a esta mezcla la cebolla cocida, el queso desmenuzado y comprobamos la sal.</p></li>
+									<li><p>Verter la preparación en una fuente enmantecada (también puedes usar aceite) y llevar al horno pre calentado  a 180ºC por 30 – 40 minutos aprox.</p></li>
+								</ol>
+							</div>		
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+	</body>
+</html>
